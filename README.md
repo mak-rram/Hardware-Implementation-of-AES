@@ -51,6 +51,7 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
    ![image](https://user-images.githubusercontent.com/103184935/185763842-720ff116-400f-4639-a6a1-cd948ac1d817.png)
    
    so the output is got with 2MHZ frequency (after 500ns). 
+   which means 2M*(128bit_output) so the throughput is 256Mb/s 
    
    we can increase the throughput by 
    1-embedding the SubByte block with the shiftrow blcok and without any decrease in frequency so we will reduce 10 clock cycles(but we follow the standard as it             is)
