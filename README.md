@@ -32,8 +32,11 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
  ## 3-Power dissipation
    we used clock gating technique for each block to reduce the power dissipation in the system 
    also we used resouece shariong dor the SBOX block (4 times in all the design) which redused the area and the power
+   
    **POWER DISSIPATION @ 200MHZ :**
+   
    ![image](https://user-images.githubusercontent.com/103184935/185763565-5fb6654a-c068-42e2-a3ee-379db77d74f0.png)
+   
    
    **POWER DISSIPATION @ 100MHZ :**
      ![image](https://user-images.githubusercontent.com/103184935/185763632-2116ba8f-1258-41da-acfa-aa3e226b5d26.png)
