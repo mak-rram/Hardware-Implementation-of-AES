@@ -15,9 +15,9 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
        clock_frequency = __200MHZ(4ns)__ 
        the design is clean from setup and hold time violation 
       **SETUP :** 
-      ![image](https://user-images.githubusercontent.com/103184935/185763525-33dd105d-d774-46b7-95bf-0a04513a6a9b.png)
+      ![image](https://user-images.githubusercontent.com/103184935/185764012-0c581d7d-5f22-423a-ae03-c7f00e6378a7.png)
       **HOLD :**
-      ![image](https://user-images.githubusercontent.com/103184935/185763537-acea832a-12ba-4ca5-88eb-ba936ca8ca8d.png)
+      ![image](https://user-images.githubusercontent.com/103184935/185764020-329bc9f0-b7da-4e14-b89f-29c3089d544d.png)
 
  
  ### 2-hardware resources and utillization 
