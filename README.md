@@ -58,7 +58,7 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
    2-also we can use didicated controller to be more specific in controlling the design and make the Reset signal of each upcoming block at the last cycle of the            working block which will reduce 10 clock cycles(also we can do this with FSM but we will add more hardware)
 ## concolusion 
   the design compromise between the performance and the power as using 
-    1-only 4 sbox for the over all design 
-    2-resource sharing in the key shedule block
-    3-latch based clock gating 
+     1-only 4 sbox for the over all design 
+     2-resource sharing in the key shedule block
+     3-latch based clock gating 
 
