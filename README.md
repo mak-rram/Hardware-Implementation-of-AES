@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
 
  
  ## 3-Power dissipation
-   we used clock gating technique for each block to reduce the power dissipation in the system 
+   we used clock gating technique(latch based clock gating) for each block to reduce the power dissipation in the system 
    also we used resouece shariong dor the SBOX block (4 times in all the design) which redused the area and the power
    
    **POWER DISSIPATION @ 200MHZ :**
@@ -53,10 +53,11 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
    so the output is got with 2MHZ frequency (after 500ns). 
    
    we can increase the throughput by 
-   1-embedding the SubByte block with the shiftrow blcok and without any decrease in frequency so we will reduce 10 clock cycles(but we    follow the standard as it        is)
+   1-embedding the SubByte block with the shiftrow blcok and without any decrease in frequency so we will reduce 10 clock cycles(but we follow the standard as it             is)
    2-also we can use didicated controller to be more specific in controlling the design and make the Reset signal of each upcoming block at the last cycle of the            working block which will reduce 10 clock cycles(also we can do this with FSM but we will add more hardware)
 ## concolusion 
   the design compromise between the performance and the power as using 
     1-only 4 sbox for the over all design 
-    2-resource sharing in the key shedule block   
+    2-resource sharing in the key shedule block
+    3-latch based clock gating 
 
