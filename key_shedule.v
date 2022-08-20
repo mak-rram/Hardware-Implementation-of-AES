@@ -1,10 +1,9 @@
 
-module key_shedule(clk,rst,key,s_boxed_row,out_key,key_shedule_flag);
+module key_shedule(clk,rst,key,s_boxed_row,out_key);
 input clk,rst;
 input [31:0] s_boxed_row;
 input [127:0] key;
 output [127:0] out_key;
-output key_shedule_flag;
 
 wire [31:0] xor_output,xor_in1,xor_in2;
 wire [31:0] in_1_1;
@@ -55,7 +54,6 @@ assign en1=(counter==1)?1:0;
 assign en2=(counter==2)?1:0;
 assign en3=(counter==3)?1:0;
 assign en4=(counter==4)?1:0;
-assign key_shedule_flag=(counter==5)?1:0;
 
 
 always@(posedge clk , negedge rst)
