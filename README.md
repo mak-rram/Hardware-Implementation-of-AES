@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
 
 ## virtex-7 FPGA implementation results
   ## 1- clock and Timing 
-    clock_frequency = 200MHZ(4ns) 
+    clock_frequency = **200MHZ(4ns)** 
     the design is clean from setup and hold time violation 
    SETUP :
    ![image](https://user-images.githubusercontent.com/103184935/185764012-0c581d7d-5f22-423a-ae03-c7f00e6378a7.png)
