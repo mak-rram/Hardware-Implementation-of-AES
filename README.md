@@ -24,8 +24,7 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
  ## 2-hardware resources and utillization 
    the AES block is implemented on much less than 1% of the total resources of the virtex-7 FPGA.
    
-   ![image](https://user-images.githubusercontent.com/103184935/185764719-0927084d-7893-4f4b-88d9-10c19a9b578a.png)
-
+  ![image](https://user-images.githubusercontent.com/103184935/185764755-759216c2-e7df-414b-97d8-293636691631.png) 
 
    note that this block will be used as a macros so we couldn't take the IOB pins into cosideration.
    
