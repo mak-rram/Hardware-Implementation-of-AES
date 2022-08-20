@@ -1,5 +1,5 @@
 # Hardware-Implementation-of-AES
-High Speed and Low Power Implementation in Verilog
+High Speed and Low Power Implementation in Verilog.
 
 ## advanced encryption system algorithm
 A 5 minutes video for AES Rijndael Cipher algorithm explained as a Flash animation here
@@ -45,7 +45,10 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
    the design takes 100 clock cycles from the start to the end , when the clock period is 5ns it takes 500ns as shown:
    ![image](https://user-images.githubusercontent.com/103184935/185763842-720ff116-400f-4639-a6a1-cd948ac1d817.png)
    so the output is got with 2MHZ frequency (after 500ns). 
-   
- 
-
+   we can increase the throughput by embedding the SubByte block with the shiftrow blcok and without any decrease in frequency so we will reduce 10 clock cycles(but we    follow the standard as it is)
+   also we can use didicated controller to be more specific in controlling the design and make the Reset signal of each upcoming block at the last cycle of the working    block which will reduce 10 clock cycles(also we can do this with FSM but we will add more hardware)
+## concolusion 
+  the design compromise between the performance and the power as using 
+    1-only 4 sbox for the over all design 
+    2-resource sharing in the key shedule block   
 
