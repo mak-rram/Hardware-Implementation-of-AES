@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
 
 ## virtex-7 FPGA implementation results
   ## 1- clock and Timing 
-    the clock_frequency is 200MHZ(4ns) 
+    the clock_frequency is 200MHZ(5ns) 
     the design is clean from setup and hold time violation 
    SETUP :
    ![image](https://user-images.githubusercontent.com/103184935/185764012-0c581d7d-5f22-423a-ae03-c7f00e6378a7.png)
@@ -56,7 +56,7 @@ https://www.youtube.com/watch?v=gP4PqVGudtg&t=23s
    we can increase the throughput by 
    1-embedding the SubByte block with the shiftrow blcok and without any decrease in frequency so we will reduce 10 clock cycles(but we follow the standard as it             is)
    2-also we can use didicated controller to be more specific in controlling the design and make the Reset signal of each upcoming block at the last cycle of the            working block which will reduce 10 clock cycles(also we can do this with FSM but we will add more hardware)
-## concolusion 
+## conclusion 
   the design compromise between the performance and the power as using :
   
      1-only 4 sbox for the over all design also the first column of the key is input to the subByte block and the output is input to the key shedule block
